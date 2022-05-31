@@ -159,3 +159,30 @@
   .middle__right--p {
       margin-top: 1rem;
   }
+
+  .service {
+      height: 70vh;
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .service__right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background-color: #35424a;
+      color: white;
+      width: 25%;
+      height: fit-content;
+      margin: 1rem;
+      padding: 0.7rem;
+  }
+
+  .service__submit {
+      width: 25%;
+      background-color: #e8491d;
+      color: white;
+      border: none;
+      line-height: 1.5rem;
+      margin-top: .2rem;
+  }

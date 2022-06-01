@@ -117,72 +117,89 @@
     color: white;
     font-size: 0.7rem;
     height: 10vh;
-  }
+}
   
-  .footer__img {
+.footer__img {
     width: 15%;
     margin-top: 0.5rem;
-  }
+}
 
-  .middle {
-      display: flex;
-      justify-content: space-between;
-      height: 70vh;
-      word-spacing: 0.2rem;
-  }
+.middle {
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    word-spacing: 0.2rem;
+}
 
-  .middle__left {
-      width: 70%;
-      margin: 1rem;
-  }
+.middle__left {
+    width: 70%;
+    margin: 1rem;
+}
 
-  .middle__left--ptop {
-      margin-top: 1.5rem;
-  }
+.middle__left--ptop {
+    margin-top: 1.5rem;
+}
 
-  .middle__left--pbottom {
-      margin-top: 1rem;
-      background-color: #35424a;
-      padding: 0.5rem;
-      color: white;
-  }
+.middle__left--pbottom {
+    margin-top: 1rem;
+    background-color: #35424a;
+    padding: 0.5rem;
+    color: white;
+}
 
-  .middle__right {
-      width: 30%;
-      margin: 1rem;
-      background-color: #35424a;
-      color: white;
-      padding: 2rem 1rem;
-      height: fit-content;
-  }
+.middle__right {
+    width: 30%;
+    margin: 1rem;
+    background-color: #35424a;
+    color: white;
+    padding: 2rem 1rem;
+    height: fit-content;
+}
 
-  .middle__right--p {
-      margin-top: 1rem;
-  }
+.middle__right--p {
+     margin-top: 1rem;
+}
 
-  .service {
-      height: 70vh;
-      display: flex;
-      justify-content: space-between;
-  }
+.service {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+}
 
-  .service__right {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      background-color: #35424a;
-      color: white;
-      width: 25%;
-      height: fit-content;
-      margin: 1rem;
-      padding: 0.7rem;
-  }
+.service__left {
+    margin: 1rem;
+    width: 70%;
+}
 
-  .service__submit {
-      width: 25%;
-      background-color: #e8491d;
-      color: white;
-      border: none;
-      line-height: 1.5rem;
-      margin-top: .2rem;
-  }
+.service__left .h4 {
+    margin-left: 2rem;
+}
+
+.service__left--div {
+    margin: 1rem;
+    padding: 1rem;
+    line-height: 1.5rem;
+    background-color: lightgray;
+   
+}
+
+.service__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #35424a;
+    color: white;
+    width: 30%;
+    height: fit-content;
+    margin: 1rem;
+    padding: 0.7rem;
+}
+
+.service__submit {
+    width: 25%;
+    background-color: #e8491d;
+    color: white;
+    border: none;
+    line-height: 1.5rem;
+    margin-top: .2rem;
+}
